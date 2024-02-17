@@ -15,6 +15,8 @@ const Home = () => {
             {/* image content section */}
             <div className="min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative">
                 <img src={HeroImg} className="w-[300px] sm:w-[450px] sm:scale-110 mx-auto spin" alt="" srcset="" />
+
+                
             </div>
         </div>
     </div>
