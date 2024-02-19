@@ -3,8 +3,8 @@ import HeroImg from "../../assets/website/coffee2.png"
 
 const Home = () => {
   return (
-    <div className="min-h-[550px] sm:h-[600px] bg-brandDark flex justify-center items-center text-white">
-    <div className='container'>
+    <div className=" overflow-hidden min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white">
+    <div className='container pb-8 sm:pb-0'>
         <div className="grid grid-cols-1 sm:grid-cols-2">
             {/* text content section */}
             <div className="order-2 sm:order-1"><h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">We serve the richest <span className="text-primary font-cursive"> Coffee </span>in the city</h1>

@@ -1,20 +1,22 @@
 import React from 'react'
 import { useEffect } from 'react';
-import Aos from 'aos';
-import "aos/dist/aos.css"
+
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Service from './components/Service/Service';
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 const App = () => {
   useEffect(() => {
-    Aos.init({
+    AOS.init({
        offset:100,
        duration:700,
        easing: 'ease-in',
        delay:100,
   });
-  });
+  AOS.refresh();
+  }, []);
   return (
     <div className="overflow-x-hidden">
       <Navbar />
