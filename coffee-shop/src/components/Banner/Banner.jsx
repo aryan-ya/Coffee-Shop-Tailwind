@@ -52,8 +52,9 @@ const Banner = () => {
                         </div>
                     </div>
 
-                <div>
-                    <h1>Tea lover</h1>
+                <div className=" border-l-4 border-primary/50 pl-6 space-y-3">
+                    <h1 className="text-2xl  font-semibold font-cursive">Tea lover</h1>
+                    <p className="text-gray-500 text-sm"> Much like writing code, brewing the perfect cup of tea requires patience, precision, and a dash of passion to create a comforting blend of flavors.</p>
                 </div>
                 </div>
                </div>

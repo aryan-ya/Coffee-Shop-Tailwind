@@ -7,6 +7,7 @@ import Service from './components/Service/Service';
 import AOS from 'aos';
 import "aos/dist/aos.css"
 import Banner from './components/Banner/Banner';
+import AppStore from './components/AppStore/AppStore';
 
 const App = () => {
   useEffect(() => {
@@ -24,6 +25,8 @@ const App = () => {
       <Home />
       <Service />
       <Banner />
+      <AppStore />
+      
     </div>
   )
 }
